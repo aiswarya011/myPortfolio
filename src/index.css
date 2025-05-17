@@ -1,0 +1,17 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color:#03045e;
+  background-color: #fbf8cc;
+}
+.align_center{
+  display: flex;
+  align-items: center;
+}
+html {
+  scroll-behavior: smooth;
+}

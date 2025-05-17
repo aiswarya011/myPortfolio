@@ -1,0 +1,111 @@
+.home {
+    height: 70vh;
+    /* Full viewport height */
+    display: flex;
+    align-items: center;
+    /* Vertically center */
+    justify-content: center;
+    /* Horizontally center */
+    text-align: left;
+    gap: 3rem;
+    /* Space between text and image */
+    padding: 0 2rem;
+}
+
+.home-text {
+    max-width: 400px;
+}
+
+.t1,
+.t3 {
+    font-family: "Kamerik 205 Book";
+    font-size: 20px;
+    font-weight: 560;
+}
+
+.t2 {
+    font-size: 40px;
+    font-family: "Kamerik 205 W00 Heavy";
+}
+
+.home-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* Makes it circular */
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-image img:hover {
+    transform: scale(1.1);
+    /* Zoom effect */
+}
+
+
+.button {
+    background-color: #f3e855;
+    color: black;
+    padding: 5px;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: black;
+    padding: 5px;
+    border: black solid 1px;
+}
+
+/* Responsive: On small screens (tablet and below) */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column; /* Stack vertically */
+    height: auto; /* Let height grow */
+    padding: 1rem;
+    gap: 1.5rem;
+    text-align: center; /* Center text */
+  }
+
+  .home-text {
+    max-width: 100%; /* Full width */
+  }
+
+  .t1,
+  .t3 {
+    font-size: 16px; /* Slightly smaller */
+  }
+
+  .t2 {
+    font-size: 28px; /* Smaller headline */
+  }
+
+  .home-image img {
+    width: 150px; /* Smaller image */
+    height: 150px;
+    margin-top: 1rem;
+  }
+
+  .button {
+    width: 100%; /* Full width button */
+    padding: 10px;
+  }
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.3s ease-out forwards;
+}
+
+.fade-in:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.fade-in:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

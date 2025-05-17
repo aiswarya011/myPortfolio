@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+}

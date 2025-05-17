@@ -1,0 +1,5 @@
+export const ABOUT_DES = 'Front-end Developer with 3.2 years (3 years and 2 months) of hands-on experience building dynamic, scalable, and responsive web applications using Angular 15+, JavaScript, and TypeScript. Skilled in crafting intuitive user interfaces, optimizing performance, and ensuring seamless API integrations. Proficient in ECMAScript6 (ES6+) standards and experienced in Agile development, CI/CD workflows, and modern DevOps practices. Focused on writing clean code, working collaboratively, and building user-centric, high-impact solutions.'
+export const ABOUT_BOLD = 'Currently based in Łódź, Poland, and eligible to work full-time with a valid Temporary Residence Card (TRC).'
+export const SERVICEID = 'service_5ei4c0i';
+export const TEMPLATEID = 'template_dt4pwre';
+export const USERID = '44RR-CToHsdImuIRY';

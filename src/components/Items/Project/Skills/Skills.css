@@ -1,0 +1,23 @@
+.skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* horizontal center */
+    align-items: center;
+    /* vertical center */
+    width: 70%;
+    padding: 2rem 0;
+    /* Instead of fixed height */
+    gap: 2rem;
+}
+
+.skills {
+    text-align: center;
+}
+
+.title {
+    font-family: "Kamerik 205 Book";
+    font-size: 40px;
+    color: #f5e613;
+    font-weight: bolder;
+}

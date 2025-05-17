@@ -1,0 +1,79 @@
+.about_me-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+.about_me {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.title {
+    font-family: "Kamerik 205 Book";
+    font-size: 40px;
+    color: #f5e613;
+    font-weight: bolder;
+}
+
+.des {
+    font-family: "Kamerik 205 Book";
+    text-align: justify;
+    font-size: medium;
+}
+
+.des_bold {
+    margin-top: 1rem;
+    font-family: "Kamerik 205 Book";
+    text-align: justify;
+    font-size: medium;
+    font-weight: 800;
+}
+
+@media (max-width: 768px) {
+    .about_me-wrapper {
+        padding: 2rem 1rem;
+         min-height: 100vh;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .des,
+    .des_bold {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .about_me {
+        text-align: center;
+        /* center text on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .about_me-wrapper {
+        padding: 1.5rem 1rem;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .des,
+    .des_bold {
+        font-size: 0.95rem;
+        line-height: 1.3;
+    }
+}

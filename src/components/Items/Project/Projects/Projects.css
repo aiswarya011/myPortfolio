@@ -1,0 +1,33 @@
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* horizontal center */
+    align-items: center;
+    /* vertical center */
+    width: 70%;
+    padding: 2rem 0;
+    /* Instead of fixed height */
+    gap: 2rem;
+}
+
+.projects {
+    text-align: center;
+}
+
+.title {
+    font-family: "Kamerik 205 Book";
+    font-size: 40px;
+    color: #f5e613;
+    font-weight: bolder;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+}

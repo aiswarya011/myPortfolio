@@ -1,0 +1,23 @@
+@import url(https://db.onlinewebfonts.com/c/97487891cbf718f9e9f0d51608252da7?family=Kamerik+205+W00+Heavy);
+@import url(https://db.onlinewebfonts.com/c/19d621e7fe650c7c82424fa2754767da?family=Kamerik+205+Book);
+
+
+@font-face {
+    font-family: "Kamerik 205 W00 Heavy";
+    src: url("https://db.onlinewebfonts.com/t/97487891cbf718f9e9f0d51608252da7.eot");
+    src: url("https://db.onlinewebfonts.com/t/97487891cbf718f9e9f0d51608252da7.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/97487891cbf718f9e9f0d51608252da7.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/97487891cbf718f9e9f0d51608252da7.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/97487891cbf718f9e9f0d51608252da7.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/97487891cbf718f9e9f0d51608252da7.svg#Kamerik 205 W00 Heavy")format("svg");
+}
+
+@font-face {
+    font-family: "Kamerik 205 Book";
+    src: url("https://db.onlinewebfonts.com/t/19d621e7fe650c7c82424fa2754767da.eot");
+    src: url("https://db.onlinewebfonts.com/t/19d621e7fe650c7c82424fa2754767da.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/19d621e7fe650c7c82424fa2754767da.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/19d621e7fe650c7c82424fa2754767da.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/19d621e7fe650c7c82424fa2754767da.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/19d621e7fe650c7c82424fa2754767da.svg#Kamerik 205 Book")format("svg");
+}

@@ -1,0 +1,16 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    /* center text inside paragraphs */
+}
+
+.title {
+    font-family: "Kamerik 205 Book";
+    font-size: 40px;
+    color: #f5e613;
+    font-weight: bolder;
+}
