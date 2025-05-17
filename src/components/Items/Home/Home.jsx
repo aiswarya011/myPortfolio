@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import { Button } from "@chakra-ui/react"
 import { RiDownloadLine } from "react-icons/ri";
-import Footer from '../Footer/Footer';
+import myImage from '../../../assets/IMG_9492_Original.jpeg';
 
 const Home = ({HandleCvDownload}) => {
 
@@ -25,7 +25,7 @@ const Home = ({HandleCvDownload}) => {
         </div>
 
         <div className="home-image fade-in">
-          <img src="src\assets\IMG_9492_Original.jpeg" alt="Aiswarya" />
+          <img src={myImage} alt="Aiswarya" />
         </div>
       </div>
 
