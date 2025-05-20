@@ -1,5 +1,7 @@
 import projectImg1 from '../../src/assets/Screenshot 2025-05-16 180208.png';
 import projectImg2 from '../../src/assets/Screenshot 2025-05-16 181412.png';
+import projectImg3 from '../../src/assets/Screenshot 2025-05-19 211815.png';
+
 export const ProjectData = {
     data: [
         {
@@ -21,13 +23,13 @@ export const ProjectData = {
             img: projectImg2
         },
         {
-            id: 2,
-            title: 'ProStore – A Modern Next.js Shopping App',
-            des: `CardWish is a full-fledged shopping application built using ReactJS, offering a seamless and interactive user experience.`,
-            link: 'https://serene-gelato-973a92.netlify.app/',
-            gitHub: 'https://github.com/aiswarya011/CartWish',
-            technology: 'Next.js',
-            img: projectImg1
+            id: 3,
+            title: 'Convertly – Currency Conversion Angular App',
+            des: `Convertly is a currency conversion platform built with Angular19 that allows users to convert between any two currencies in real-time.`,
+            link: 'https://convertly-currency.netlify.app/',
+            gitHub: 'https://github.com/aiswarya011/currencyConversion',
+            technology: 'Angular 19, HTML, CSS, TS',
+            img: projectImg3
         }
     ]
 }
