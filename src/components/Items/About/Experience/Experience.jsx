@@ -5,7 +5,7 @@ const Experience = () => {
     return (
         <div id="experience" style={{ padding: "2rem 1rem" }}>
             <div className="experience">
-                <span className="title">
+                <span className="title"  style={{color: '#03045e'}}>
                     experience.
                 </span>
             </div>
@@ -20,15 +20,15 @@ const Experience = () => {
                 {[
                     {
                         role: "Technology Analyst",
-                        period: "June 2023 - Apr 2024",
+                        period: "May 2023 - Apr 2024",
                     },
                     {
                         role: "System Systems Engineer",
-                        period: "Dec 2022 - May 2023",
+                        period: "Sept 2022 - Apr 2023",
                     },
                     {
                         role: "Systems Engineer",
-                        period: "Mar 2021 - Sept 2022",
+                        period: "Mar 2021 - Aug 2022",
                     },
                 ].map((item, index) => (
                     <Timeline.Item key={index} pb={6}>
@@ -60,7 +60,8 @@ const Experience = () => {
                 {[
                     {
                         role: "Intersnip Trainee",
-                        period: "Mar 2019 - Apr 2019",
+                        period: "Mar 2019 - Mar 2019",
+                        
                     },
                 ].map((item, index) => (
                     <Timeline.Item key={index} pb={6}>

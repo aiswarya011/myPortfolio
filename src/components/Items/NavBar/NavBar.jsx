@@ -56,7 +56,7 @@ const NavBar = ({ HandleCvDownload }) => {
                         <RiDownloadLine />
                         CV
                     </Button>
-                    <a href="https://www.linkedin.com/in/aiswarya-vinod-662b64195/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/aiswarya-v-662b64195/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="linkedin-icon" />
                     </a>
                     <a href="https://github.com/aiswarya011?tab=repositories" target="_blank" rel="noopener noreferrer">
@@ -102,7 +102,7 @@ const NavBar = ({ HandleCvDownload }) => {
                                     Download CV
                                 </Button>
                                 <div style={{ marginTop: '1rem', display: 'flex', gap: '1rem' }}>
-                                    <a href="https://www.linkedin.com/in/aiswarya-vinod-662b64195/" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/aiswarya-v-662b64195/" target="_blank" rel="noopener noreferrer">
                                         <FaLinkedin size="20" />
                                     </a>
                                     <a href="https://github.com/aiswarya011?tab=repositories" target="_blank" rel="noopener noreferrer">

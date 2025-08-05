@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <div id='projects' className="projects-wrapper">
             <div className="projects" id="aboutMe">
-                <span className="title">projects.</span>
+                <span className="title"  style={{color: '#03045e'}}>projects.</span>
             </div>
 
             <div className='card'>

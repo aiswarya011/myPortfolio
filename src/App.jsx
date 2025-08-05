@@ -10,7 +10,7 @@ function App() {
   const HandleCvDownload = () => {
     const link = document.createElement('a');
     link.href = '/assets/AiswaryaVinodResume.pdf';
-    link.download = 'Aiswarya_Vinod_CV.pdf';  // File name for the downloaded file
+    link.download = 'Aiswarya_Vinod_RESUME.pdf';  // File name for the downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

@@ -19,9 +19,6 @@ const card = ({ project }) => {
 
                 <Card.Body gap="2" p={4}>
                     <Card.Title>{project.title}</Card.Title>
-                    <Card.Description>
-                        {project.des}
-                    </Card.Description>
                 </Card.Body>
                 <Card.Footer gap="2" p={2} style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
                     <Button as="a" href={project.gitHub} target="_blank" variant="ghost">GitHub</Button>

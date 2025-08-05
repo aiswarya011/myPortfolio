@@ -11,7 +11,7 @@ const Home = ({HandleCvDownload}) => {
       <div className="home">
         <div className="home-text">
           <span className='t1 fade-in'>Hello, I'm Aiswarya,</span>
-          <p className='t2 fade-in'>Front End Angular Developer</p>
+          <p className='t2 fade-in'>Front End Developer, Master's Student</p>
           <p className='t3 fade-in'>based in Poland.</p>
           <Button
             onClick={() => HandleCvDownload()}

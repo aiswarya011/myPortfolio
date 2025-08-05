@@ -9,7 +9,7 @@ const about_meMe = () => {
 
         <div className="about_me-wrapper">
             <div className="about_me" id="aboutMe">
-                <span className="title">about me.</span>
+                <span className="title" style={{color: '#03045e'}}>about me.</span>
                 <p className="des">{ABOUT_DES}</p>
                 <p className="des_bold">{ABOUT_BOLD}</p>
             </div>
