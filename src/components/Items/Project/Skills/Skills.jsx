@@ -25,7 +25,7 @@ const Skills = () => {
                     </Collapsible.Trigger>
                     <Collapsible.Content>
                         <Box padding="4" borderWidth="1px">
-                            Angular 15+, HTML5, CSS3, Typescript, JavaScript, React.js, SCSS, Next,js
+                            Angular 15+, HTML5, CSS3, Typescript, JavaScript, React.js
                         </Box>
                     </Collapsible.Content>
                 </Collapsible.Root>
@@ -43,7 +43,7 @@ const Skills = () => {
                     </Collapsible.Trigger>
                     <Collapsible.Content>
                         <Box padding="4" borderWidth="1px">
-                            Azure DevOps, CI/CD Pipelines, Docker, Firebase, Netlify, Git, GitLab, GitHub
+                            CI/CD Pipelines, Docker, Firebase, Netlify, Git, GitLab, GitHub
                         </Box>
                     </Collapsible.Content>
                 </Collapsible.Root>

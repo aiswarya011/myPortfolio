@@ -5,11 +5,43 @@ const Experience = () => {
     return (
         <div id="experience" style={{ padding: "2rem 1rem" }}>
             <div className="experience">
-                <span className="title"  style={{color: '#03045e'}}>
+                <span className="title" style={{ color: '#03045e' }}>
                     experience.
                 </span>
             </div>
 
+            <Flex align="center" gap={3} mt={6} mb={2}>
+                <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5-zEKteRFNmbG2OWrBhVStmH97Gs-YjHJ6A&s" alt="Infosys Logo" boxSize="60px" />
+                <Text fontSize="xl" fontWeight="bold">
+                    360 Software House.
+                </Text>
+            </Flex>
+            <Timeline.Root maxW="900px" w="100%" mx="auto" mt={8} px={4}>
+                {[
+                    {
+                        role: "React Developer Intern",
+                        period: "Dec 2025 - Mar 2026",
+
+                    },
+                ].map((item, index) => (
+                    <Timeline.Item key={index} pb={6}>
+                        <Timeline.Connector>
+                            <Timeline.Separator />
+                            <Timeline.Indicator>
+                                <CiCircleCheck size={24} /> {/* Larger icon */}
+                            </Timeline.Indicator>
+                        </Timeline.Connector>
+                        <Timeline.Content>
+                            <Timeline.Title fontSize="xl" fontWeight="semibold">
+                                {item.role}
+                            </Timeline.Title>
+                            <Timeline.Description fontSize="md" color="gray.600">
+                                {item.period}
+                            </Timeline.Description>
+                        </Timeline.Content>
+                    </Timeline.Item>
+                ))}
+            </Timeline.Root>
             <Flex align="center" gap={3} mt={6} mb={2}>
                 <Image src="https://static.vecteezy.com/system/resources/previews/020/336/451/non_2x/infosys-logo-infosys-icon-free-free-vector.jpg" alt="Infosys Logo" boxSize="60px" />
                 <Text fontSize="xl" fontWeight="bold">
@@ -61,7 +93,7 @@ const Experience = () => {
                     {
                         role: "Intersnip Trainee",
                         period: "Mar 2019 - Mar 2019",
-                        
+
                     },
                 ].map((item, index) => (
                     <Timeline.Item key={index} pb={6}>

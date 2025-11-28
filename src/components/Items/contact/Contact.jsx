@@ -115,8 +115,8 @@ const Contact = ({ HandleCvDownload }) => {
               opportunities in Poland. With over 3 years of experience building
               scalable, responsive front-end applications using Angular, React,
               TypeScript, and CSS, I bring both technical expertise and a
-              passion for clean, maintainable code. Currently pursuing a
-              Master’s in Artificial Intelligence at Łódź University of
+              passion for clean, maintainable code. Currently pursuing 
+              Master’s at Łódź University of
               Technology, I’m eager to contribute to innovative and
               collaborative teams. If you think I could be a great fit, feel
               free to connect or reach out through the contact form!

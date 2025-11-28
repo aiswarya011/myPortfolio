@@ -39,7 +39,7 @@ const Education = () => {
                     <Timeline.Root maxW="900px" w="100%" mx="auto" mt={4}>
                         {[
                             {
-                                role: "Masters Degree, AI",
+                                role: "Masters Degree, SMM",
                                 period: "Oct 2025 - July 2027",
                                
                             },
